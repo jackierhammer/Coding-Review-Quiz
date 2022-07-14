@@ -1,5 +1,8 @@
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
 }
 
 h1 {
@@ -14,32 +17,41 @@ p {
 }
 
 .quiz-display {
-    display: flexbox;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #button {
-    text-align: center;
     font-size: 20px;
     color: white;
     background: darkblue;
     border-radius: 25px;
     padding: 20px;
-    width: 100px;
-    height: 20px;
+    width: 20%;
+    height: auto;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+    
 }
 
 #high-score-link {
     font-size: 20px;
     display: inline;
     width: 50%;
-    height: 50px;
+    text-decoration: none;
+    color: blueviolet;
+    margin: 0;
 }
 
 #timer-display {
     text-align: right;
     display: inline;
     width: 50%;
-    height: 50px;
     margin-left: 100px;
+    margin-top: 0;
 }
