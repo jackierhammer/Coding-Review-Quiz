@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 20px;
     padding: 0;
+    font-size: 20px;
 }
 
 h1 {
@@ -12,8 +13,11 @@ h1 {
 }
 
 p {
-    font-size: 20px;
     text-align: center;
+}
+
+li {
+    list-style: none;
 }
 
 .quiz-display {
@@ -25,8 +29,22 @@ p {
     margin: 0 auto;
 }
 
+.answer-box {
+    color: white;
+    background: darkblue;
+    border-radius: 25px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.answer-box:hover {
+    background: blueviolet;
+}
+
 #button {
-    font-size: 20px;
     color: white;
     background: darkblue;
     border-radius: 25px;
@@ -36,11 +54,13 @@ p {
     text-decoration: none;
     margin: 20px;
     text-align: center;
-    
+}
+
+#button:hover {
+    background: blueviolet;
 }
 
 #high-score-link {
-    font-size: 20px;
     display: inline;
     width: 50%;
     text-decoration: none;

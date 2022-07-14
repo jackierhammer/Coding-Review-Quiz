@@ -3,7 +3,7 @@ var button = document.querySelector('#button');
 
 function countdown() {
 
-    var timeLeft = 15;
+    var timeLeft = 75;
     var timeInterval = setInterval( function() {
         if (timeLeft > 0) {
             timer.textContent = 'Time: ' + timeLeft;
@@ -15,4 +15,4 @@ function countdown() {
     }, 1000);
 }
   
-button.addEventListener("click",countdown);
+button.addEventListener("load",countdown);
