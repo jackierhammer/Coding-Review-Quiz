@@ -16,10 +16,12 @@ p {
     text-align: center;
 }
 
+/* Removes bullet points from list elements */
 li {
     list-style: none;
 }
 
+/* Creates a box that holds the main contents of each page and keeps them in the middle of the viewport */
 .quiz-display {
     width: 80vw;
     display: flex;
@@ -40,6 +42,7 @@ li {
     margin: 20px;
 }
 
+/* Makes it so that the answer choices change color when the mouse hovers over them */
 .answer-box:hover {
     background: blueviolet;
 }
@@ -56,6 +59,7 @@ li {
     text-align: center;
 }
 
+/* Makes it so that the "Start Game" and "Home Page" buttons change color when the mouse hovers over them */
 #button:hover {
     background: blueviolet;
 }
@@ -68,7 +72,7 @@ li {
     margin: 0;
 }
 
-#timer-display {
+#timer-display, #timer-display-quiz {
     text-align: right;
     display: inline;
     width: 50%;
