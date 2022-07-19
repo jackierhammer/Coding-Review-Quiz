@@ -52,7 +52,7 @@ var questionSet = [
 // Helper function that writes the question and answer content onto the page
 function renderQuestion(questionIndex) {
     if (questionIndex == questionSet.length) {
-        console.log("game over");
+        // console.log("game over");
         localStorage.setItem('finalScore', timeLeft);
         window.location.href = "./scoreboard.html";
     }

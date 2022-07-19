@@ -87,6 +87,23 @@ li {
     background: blueviolet;
 }
 
+#clear-button {
+    color: white;
+    background: darkblue;
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px;
+    width: 20%;
+    height: auto;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+}
+
+#clear-button:hover {
+    background: blueviolet;
+}
+
 #high-score-link {
     display: inline;
     width: 50%;
